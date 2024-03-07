@@ -1,0 +1,15 @@
+# log4rs.yaml
+
+# Define appenders
+appenders:
+  stdout:
+    kind: console
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S%.3f)} [{T}] [{l}] - {m}{n}"
+
+# Define root logger
+root:
+  level: debug
+  appenders:
+    - stdout
+
