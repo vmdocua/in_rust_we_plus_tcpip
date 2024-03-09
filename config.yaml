@@ -1,0 +1,7 @@
+# in_rust_we_plus_tcpip config.yaml
+
+# EchoServer configuration
+echo:
+  enabled: true
+  host: "127.0.0.1"
+  port: 3535
