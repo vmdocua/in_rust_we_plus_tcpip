@@ -1,5 +1,5 @@
 // tests/main_test.rs
-mod tests {
+mod main_test {
     #[test]
     fn test_calc() {
         assert_eq!(2 + 2, 4);
